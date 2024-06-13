@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" appversion="6.1.11" apprev="18043">
+  <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" height="2992" overlap="1" width="2992" levelingroll="0" levelbias="0.400" levelbiashidpi="1.000" levelingpitch="0">
+    <level predecode="0" height="2992" preload="0" width="2992"/>
+    <level predecode="0" height="1496" preload="0" width="1496"/>
+    <level predecode="0" height="748" preload="0" width="748"/>
+    <level predecode="1" height="374" preload="1" width="374"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" pan="0" fov="100" tilt="0"/>
+    <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+    <min pan="0" fovpixel="2" tilt="-90"/>
+    <max fovstereographic="270" fovfisheye="360" scaletofit="1" pan="360" fov="120" tilt="90"/>
+  </view>
+  <userdata longitude="105.767972" heading="0" comment="" title="Hệ Quang Trắc Online" customnodeid="" author="" datetime="26/02/2024 8:32 SA" info="" altitude="6.40" copyright="" description="" source="" tags="Downloads" nodeid="node1" latitude="10.046861"/>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label enabled="1" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" textalpha="1" height="20" border="1" background="1" wordwrap="1" borderalpha="1" width="180" bordercolor="0x000000" backgroundalpha="1"/>
+    <polystyle backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+    <hotspot title="Web_Viewer" target="_blank" id="Point01" pan="-349.64" skinid="Point _QT" url="https://app.e-ra.io/dev-mode/dashboards/6970" tilt="-31.53" description=""/>
+    <hotspot title="Test_point" target="_blank" id="Point02" pan="-352.53" skinid="Point _QT" url="https://app.e-ra.io/dev-mode/dashboards/6970" tilt="-17.76" description=""/>
+    <hotspot title="Test_point" target="_blank" id="Point03" pan="-63.93" skinid="Point _QT" url="https://app.e-ra.io/dev-mode/dashboards/6970" tilt="3.31" description=""/>
+  </hotspots>
+  <media>
+    <sound field="90.000" loop="1" pansize="180.000" id="Element01" pan="-347.440" nodechangekeep="0" ambientlevel="0.000" level="1.000" tiltsize="90.000" tilt="-5.720" mode="3" startmutedmobile="0">
+      <source url="media/Voice MHQT online.MP3"/>
+    </sound>
+  </media>
+  <transition enabled="1" type="crossdissolve" softedge="0" zoomout="0" zoomfov="20" zoomoutpause="1" zoomafterinfov="90" zoomin="0" zoomspeed="2" zoomafteroutfov="20" blendcolor="0x000000" blendtime="1"/>
+  <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+  <control invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" contextprojections="0" hideabout="0" invertcontrol="1" contextfullscreen="1" sensitivity="8" rubberband="0" dblclickfullscreen="0"/>
+</panorama>
